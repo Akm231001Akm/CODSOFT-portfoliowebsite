@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me </title>
+    <style>
+        body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(0, 4, 33);
+    color: white;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(9, 28, 95);
+    height: 50px;
+}
+.left{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 13px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    font-size: 1.02rem;
+}
+
+h1 {
+    margin-left: 38px;
+    margin-top: 63px;
+}
+
+ .maindiv{
+    margin: 30px 90px;
+ }
+
+ .ul{
+    list-style: none;
+    font-size: 1.2rem;
+ }
+
+ .ul li{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+ }
+
+ div ul input{
+    width: 50%;
+    height: 25px;
+    border-radius: 7px;
+ }
+
+ div button{
+    margin-left: 45px;
+    padding:10px 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(114, 42, 132);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: antiquewhite;
+ }
+
+ div button:hover{
+    background-color: rgb(14, 83, 75);
+    color: rgb(241, 246, 238);
+    cursor: pointer;
+ }
+
+ .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-left:50px;
+    margin-top: -20px;
+}
+
+.checkbox p{
+    margin-left:10px;
+    margin-top: -5px;
+}
+
+
+ footer{
+    margin-top: 50px;
+    text-align: center;
+ }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+              Aman's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skill.html">Skill</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="project.html">projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="maindiv">
+    <h1>Contact me for work/General Enquiries</h1>
+    <ul class="ul">
+        <li>Name</li>
+        <input type="text"/>
+        <li>Email address</li>
+        <input type="text"/>
+        <li>Phone</li>
+        <input type="text"/>
+        <li>Enquiry</li>
+        <input type="text"/>
+    </ul>
+    <div class="checkbox"><input type="checkbox"/>
+        <p>I want you to work on a project with me. </p></div>
+    <button>Submit</button>
+</div>
+<footer>
+    Copyright &copy; AmanPortfolio.com | All rights reserved
+</footer>
+</body>
+</html>
